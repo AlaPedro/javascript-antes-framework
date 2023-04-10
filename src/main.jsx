@@ -9,7 +9,12 @@ import Objetos from './Pages/Objetos'
 import RestOperator from './Pages/RestOperator'
 import OptionalChaining from './Pages/OptionalChaining'
 import Map from './Pages/Map'
-import Filter from './Pages/FIlter'
+import Filter from './Pages/Filter'
+import Every from './Pages/Every'
+import Some from './Pages/Some'
+import Reduce from './Pages/Reduce'
+import TemplateLiterals from './Pages/TemplateLiterals'
+import Promisses from './Pages/Promisses'
 
 const router = createBrowserRouter([
   {
@@ -39,6 +44,26 @@ const router = createBrowserRouter([
   {
     path: "/Filter",
     element: <Filter />
+  },
+  {
+    path: "/Every",
+    element: <Every />
+  },
+  {
+    path: "/Some",
+    element: <Some />
+  },
+  {
+    path: "/Reduce",
+    element: <Reduce />
+  },
+  {
+    path: "/TemplateLiterals",
+    element: <TemplateLiterals />
+  },
+  {
+    path: "/Promisses",
+    element: <Promisses />
   },
   {
     errorElement: <Error />

@@ -30,6 +30,26 @@ function App() {
         <Link to={"/Filter"}>
           <h2>Métodos de array: .filter()</h2>
         </Link>
+
+        <Link to={"/Every"}>
+          <h2>Métodos de array: .every()</h2>
+        </Link>
+
+        <Link to={"/Some"}>
+          <h2>Métodos de array: .some()</h2>
+        </Link>
+
+        <Link to={"/Reduce"}>
+          <h2>Métodos de array: .reduce()</h2>
+        </Link>
+
+        <Link to={"/TemplateLiterals"}>
+          <h2>Template Literals</h2>
+        </Link>
+
+        <Link to={"/Promisses"}>
+          <h2>Promisses</h2>
+        </Link>
       </nav>
     </div>
   )
